@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+            </div>
+            <div>
+                <h3 class="title">GUEST</h3>
+            </div>
+        </div>
+        <div class="container">
+            <div id="homeLeader" class="score_background">
+                <div id="home_Team" class="points_screen">0</div>
+            </div>
+            <div id="guestLeader" class="score_background">
+                <div id="guest_Team" class="points_screen">0</div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <ul class="list_style">
+                    <li onclick="addOneHome()">+1</li>
+                    <li onclick="addTwoHome()">+2</li>
+                    <li onclick="addThreeHome()">+3</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list_style">
+                    <li onclick="addOneGuest()">+1</li>
+                    <li onclick="addTwoGuest()">+2</li>
+                    <li onclick="addThreeGuest()">+3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="new_game noselect" onclick="confirmAction()">New Game</div>
+        <script src="index.js"></script>
+    </body>
+</html>

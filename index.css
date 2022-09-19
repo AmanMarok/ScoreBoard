@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    max-width: 768px;
+    margin: auto;
+    padding: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.title {
+    color: #fff;
+    font-family: Verdana;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    width: 149px;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.score_background {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.points_screen {
+    color: #F94F6D;
+    height: 120px;
+    text-align: center;
+    margin:auto;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    line-height: 135px;
+}
+
+.list_style{
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 21px;
+}
+
+.list_style li {
+    display: inline-block;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.new_game{
+    text-align: center;
+    color:aliceblue;
+    font-family: lato;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.homeLeader{
+}
